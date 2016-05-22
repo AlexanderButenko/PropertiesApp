@@ -11,6 +11,6 @@
 		string Code { get; }
 		decimal Sum { get; }
 		string Caption { get; }
-		object Value { get; }
+		dynamic Value { get; }
 	}
 }
